@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:id="@+id/imageIcon"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="160dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="45dp"
+        android:src="@drawable/logo2"/>
+
+    <TextView
+        android:id="@+id/welcomeTv"
+        android:layout_below="@id/imageIcon"
+        android:layout_marginTop="50dp"
+        android:layout_width="290dp"
+        android:layout_height="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="45dp"
+        android:text="@string/welcome"/>
+
+    <TextView
+        android:id="@+id/welcomeNoteTv"
+        android:layout_below="@id/welcomeTv"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/in_a_world_of_finite_resources_the_true_n_measure_of_innovation_lies_not_in_its_n_complexity_but_in_its_capacity_to_n_simplify_and_empower_the_human_n_mind"/>
+
+
+    <Button
+        android:layout_width="303dp"
+        android:layout_height="63dp"
+        android:text="@string/sign_up"
+        android:layout_below="@id/welcomeNoteTv"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/signupButton"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        app:cornerRadius = "30dp"/>
+
+    <Button
+        android:layout_width="303dp"
+        android:layout_height="63dp"
+        android:text="@string/sign_in"
+        android:layout_below="@id/signupButton"
+        android:id="@+id/signinButton"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:shadowColor="@color/black"
+        android:backgroundTint="@color/white"
+        app:cornerRadius = "20dp"/>
+
+    <TextView
+        android:id="@+id/termsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signinButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/terms" />
+
+</RelativeLayout>

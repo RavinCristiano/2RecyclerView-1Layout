@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FigmaTask</string>
+    <string name="sign_up">Sign-up</string>
+    <string name="sign_in">Sign-in</string>
+    <string name="terms">Terms</string>
+    <string name="in_a_world_of_finite_resources_the_true_n_measure_of_innovation_lies_not_in_its_n_complexity_but_in_its_capacity_to_n_simplify_and_empower_the_human_n_mind">In a world of finite resources, the true \n measure of innovation lies not in its \n complexity, but in its capacity to \n simplify and empower the human \n mind.</string>
+    <string name="welcome">Welcome</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="technology" />
+    <string name="step_into_tomorrow_exploring_spatial_computing_s_impact_on_industries_and_the_metaverse">Step Into Tomorrow: Exploring \n Spatial Computing’s Impact On \n Industries And The Metaverse</string>
+    <string name="_09_sept_2024">09 Sept 2024</string>
+    <string name="recent_articles">Recent Articles</string>
+</resources>
